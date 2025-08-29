@@ -17,13 +17,13 @@ def read_requirements():
 
 setup(
     name="treedir",
-    version="1.0.0",
+    version="0.1.0",
     author="Parth Nuwal",
     author_email="parthnuwal7@gmail.com",
     description="A Python library for parsing directory structures from text files and implementing them in target folders",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Parthn7/treedir",
+    url="https://github.com/Parthnuwal7/treedir",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -45,9 +45,7 @@ setup(
     install_requires=read_requirements(),
     keywords="directory structure tree filesystem automation",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/treedir/issues",
-        "Source": "https://github.com/yourusername/treedir",
-        "Documentation": "https://github.com/yourusername/treedir#readme",
+        "Bug Reports": "https://github.com/Parthnuwal7/treedir"
     },
     entry_points={
         'console_scripts': [

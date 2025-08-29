@@ -5,9 +5,9 @@ A Python library for parsing directory structures from text files and
 implementing them in target folders with various operation modes.
 """
 
-__version__ = "1.0.0"
-__author__ = "Your Name"
-__email__ = "your.email@example.com"
+__version__ = "0.1.0"
+__author__ = "Parth Nuwal"
+__email__ = "parthnuwal7@gmail.com"
 
 from .core import TreeDir
 from .parser import TreeParser
