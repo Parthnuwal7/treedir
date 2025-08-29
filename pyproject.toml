@@ -4,16 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "treedir"
-version = "1.0.0"
+version = "0.1.0"
 description = "A Python library for parsing directory structures from text files and implementing them in target folders"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "Parth Nuwal", email = "parthnuwal7@gmail.com"},
 ]
 maintainers = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "Parth Nuwal", email = "parthnuwal7@gmail.com"},
 ]
 keywords = ["directory", "structure", "tree", "filesystem", "automation"]
 classifiers = [
@@ -44,10 +44,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/treedir"
-Documentation = "https://github.com/yourusername/treedir#readme"
-Repository = "https://github.com/yourusername/treedir.git"
-"Bug Tracker" = "https://github.com/yourusername/treedir/issues"
+Homepage = "https://github.com/Parthnuwal7/treedir"
+Documentation = "https://github.com/Parthnuwal7/treedir#readme"
+Repository = "https://github.com/Parthnuwal7/treedir"
+"Bug Tracker" = "https://github.com/Parthnuwal7/treedir"
 
 [project.scripts]
 treedir = "treedir.cli:main"
