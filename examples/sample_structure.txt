@@ -1,0 +1,27 @@
+my_project/
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── helpers.py
+│       └── validators.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_main.py
+│   ├── test_config.py
+│   └── test_utils/
+│       ├── __init__.py
+│       ├── test_helpers.py
+│       └── test_validators.py
+├── docs/
+│   ├── README.md
+│   ├── API.md
+│   └── examples/
+│       ├── basic_usage.md
+│       └── advanced_usage.md
+├── requirements.txt
+├── setup.py
+├── .gitignore
+└── LICENSE
