@@ -19,7 +19,7 @@ A Python library for parsing directory structures from text files and implementi
 ## Installation
 
 ```bash
-pip install treedir
+pip install treedir-py
 ```
 
 ## Quick Start

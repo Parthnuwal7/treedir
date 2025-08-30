@@ -1,14 +1,14 @@
 [build-system]
-requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "treedir"
-version = "0.1.0"
+name = "treedir-py"
+version = "0.1.2"
 description = "A Python library for parsing directory structures from text files and implementing them in target folders"
 readme = "README.md"
 requires-python = ">=3.7"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Parth Nuwal", email = "parthnuwal7@gmail.com"},
 ]
@@ -19,7 +19,6 @@ keywords = ["directory", "structure", "tree", "filesystem", "automation"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.7",
