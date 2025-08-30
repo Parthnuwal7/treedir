@@ -220,16 +220,19 @@ README.md"""
         
         paths = self.parser.structure_to_paths(structure)
         
+        # Normalize paths to handle both Windows and Unix separators
+        normalized_paths = [os.path.normpath(path) for path in paths]
+        
         expected_paths = [
-            'src/',
-            'src/main.py',
-            'src/utils/',
-            'src/utils/helpers.py',
+            os.path.normpath('src/'),
+            os.path.normpath('src/main.py'),
+            os.path.normpath('src/utils/'),
+            os.path.normpath('src/utils/helpers.py'),
             'README.md'
         ]
         
         for expected_path in expected_paths:
-            self.assertIn(expected_path, paths)
+            self.assertIn(expected_path, normalized_paths)
     
     def test_validate_structure(self):
         """Test structure validation"""
